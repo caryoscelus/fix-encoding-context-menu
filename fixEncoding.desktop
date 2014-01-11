@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin
+MimeType=inode/directory;
+Actions=fixEnc;
+
+[Desktop Action fixEnc]
+Name=Fix cyrillic file name encoding
+Name[ru]=Исправить кодировку имён файлов
+Exec=$HOME/.fix-encoding/fixall.sh %u
+Icon=emblem-important
+
