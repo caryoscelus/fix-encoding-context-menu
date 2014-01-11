@@ -1,0 +1,14 @@
+This is a small KDE context menu entry that fixes filenames resulted from unpacking zip with
+unproperly encoded cyrillic filenames. Works with dolphin, others untested but should work.
+
+== Installing ==
+You should install convmv
+Then just run install.sh
+Now you'll have new element in Actions context submenu. Use it on directory containing bad files.
+
+== По-русски ==
+Пункт контекстного меню KDE для исправления кириллической кодировки имён файлов, полученных из
+неправильных zip архивов.
+Требует convmv для работы. Для установки просто запустите install.sh
+После этого используйте новый пункт подменю "Действия" на директориях с неправильными файлами.
+
